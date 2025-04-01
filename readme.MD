@@ -48,6 +48,10 @@ $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | sudo tee /etc/apt/sou
 
 sudo apt-get update
 
+# Video: https://www.youtube.com/watch?v=ZZpB4Lgx1rk
+
+
+
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
 sudo docker run hello-world
